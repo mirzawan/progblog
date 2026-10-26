@@ -12,7 +12,7 @@ export default function AdminLoginPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    if (email === 'admin@prog.ba' && password === 'admin123') {
+    if (email === 'admin@prog.ba' && password === 'Admin@123!') {
       document.cookie = 'isAdmin=true; path=/;'
       router.push('/admin')
     } else {
@@ -68,7 +68,7 @@ export default function AdminLoginPage() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              placeholder="admin@prog.ba"
+              placeholder=""
               className="admin-input text-sm"
             />
           </div>
