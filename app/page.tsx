@@ -179,14 +179,7 @@ async function HomeContent() {
                   <span className="material-symbols-outlined text-[17px]">school</span>
                   Pregledaj lekcije
                 </a>
-                <a
-                  href="#lekcije"
-                  className="px-4 py-2 rounded-lg font-mono text-sm font-semibold border transition flex items-center gap-2"
-                  style={{ borderColor: 'var(--border-default)', color: 'var(--text-secondary)', background: 'transparent' }}
-                >
-                  <span className="material-symbols-outlined text-[17px]">arrow_downward</span>
-                  Scroll down
-                </a>
+               
               </div>
 
               {/* Closing brace */}
